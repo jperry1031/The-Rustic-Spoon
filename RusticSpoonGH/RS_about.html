@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+     Rustic Spoon
+     Author: Jared Perry
+     Date: 1/15/2020  
+
+     Filename: RS_about.html
+    -->
+	
+	<title>About | The Rustic Spoon</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/RS_about.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="RS_home.html"  class="active" style="font-size: 20px;">The Rustic Spoon</a>
+        <a href="RS_about.html">About</a>
+        <a href="RS_menu.html" target="_blank">Menu</a>
+        <a href="RS_gallery.html">Gallery</a>
+        <a href="RS_reservations.html">Reservations</a>
+        <a href="RS_contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+        <div class="aboutrp" style="text-align: center;">
+            <h1>About The Rustic Spoon</h1>
+            <h2>Local | Simple | Honest</h2><br>
+            <p class="aboutrp2" style="font-size: 20px;"> 
+			    Partners and long-time friends, Ryan Hines and Jay Kulas believe that the most important moments in life<br>
+				are about building relationships and usually involve a great meal. Maintaining a friendship for over fifteen<br> years, 
+				the two shared a common approach when it came to opening a restaurant - to create a warm and<br> comfortable atmosphere 
+				for friends and family to gather, curate experiences and build meaningful connections.
+                <br><br>
+                Stripping away the formalities of the typical dining experience, The Rustic Spoon is serving up breakfast, brunch<br> and 
+				lunch while focusing on quality local ingredients, family recipes, warm service and a relaxed causal ambiance.<br> Rooted 
+				in family, friends and food they offer diners a one of a kind atmosphere to enjoy comfort food recipes with a modern and local twist.
+			</p>
+			<div class="article" style="font-size:90%; text-align:center;">
+			    <a href="https://www.pilotonline.com/food-drink/columns/vp-bc-belote-rustic-spoon-1229-20200101-j5e4rvct6nf6nnhh7z3vlp4ziq-story.html">
+			    <img src="css/Virginian-Pilot-Logo.png" class="logo2" alt="VirginiaPilot"><br>
+				<span class="caption">New Virginia Beach restaurant<br> plans to serve up comfort<br> food with local twist</span>
+			    </a>
+           	</div>		
+        </div>
+   <!-- Footer Section-->
+	<footer>
+	    <div class="social-icons">
+		    1658 Pleasure House Rd Ste. 101 Va Beach, VA 23455 &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/therusticspoonvb/"><img src='css/iconfinder_Rounded_Facebook_svg_5282541.png' /></a>&nbsp;
+            <a href="http://www.twitter.com"><img src='css/iconfinder_Rounded_Instagram_svg_5282544.png' /></a>
+        </div>
+	</footer>
+	
+	<!--Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon-->
+    <script>
+        function myFunction() 
+		{
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") 
+			{
+                x.className += " responsive";
+            } 
+			else 
+			{
+                x.className = "topnav";
+            }
+        }	
+    </script>
+</body>
+</html>
